@@ -1,0 +1,21 @@
+.editjournal{
+    background-color: #8FA6CB;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.showjournal_container{
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+.showjournal_container > small{
+    font-size: 15px;
+
+}

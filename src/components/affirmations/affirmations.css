@@ -1,0 +1,15 @@
+.affirmations {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+#affirmationsText {
+    padding: 30px;
+     font-family: "Raleway";
+     font-weight: 10;
+     color: rgb(81, 81, 81);
+     font-size: 20px;
+     
+   }

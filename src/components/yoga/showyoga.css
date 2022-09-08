@@ -1,0 +1,28 @@
+.showyoga{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 100%;
+    background-color: #D5F9DE;
+    height: 600px%;
+    
+}
+.benefits_container {
+    max-width: 50%;
+    padding-bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+
+}
+
+.showyoga_wrapper{
+    background-color: #D5F9DE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 500px;
+   
+}

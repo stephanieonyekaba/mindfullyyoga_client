@@ -1,0 +1,62 @@
+.signin{
+    background-color: white;
+    font-family: Raleway, Arial, Helvetica, sans-serif;
+}
+
+
+.signin_wrapper{
+  height: 30%;
+
+  }
+  
+  .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+  
+  .signin_image{
+    padding-top: 100px;
+    height: 50%;
+
+  }
+
+  .signin_image > span{
+    padding-bottom: 30px;
+
+  }
+
+.signin_slogan > h1{
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
+  font-size: 100px;
+  color: #7D84B2;
+}
+
+.signin_slogan > p{
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
+  padding-left: 10px;
+  padding-bottom: 30px;
+  font-size: 20px;
+  color: #7D84B2;
+}
+
+  .signin_container {
+    display: flex;
+    justify-content: center;
+    padding-top: 0;
+    align-items: center;
+    height: 100%;
+    background-color: #7D84B2;
+  }
+  .signin_button_container{
+    display: flex;
+    align-items: right;
+    justify-content: center;
+  }
