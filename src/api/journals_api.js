@@ -1,6 +1,6 @@
 import apiUrl from '../apiConfig'
 import axios from 'axios'
-
+//note
 // index function
 export const getAllJournals = () => {
     return axios(`${apiUrl}/journals`)
