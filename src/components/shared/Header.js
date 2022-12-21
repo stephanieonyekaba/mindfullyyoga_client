@@ -71,7 +71,7 @@ const unauthenticatedOptions = (
             </Link>
 
 
-			<Link to='/favorites' style={linkStyle}>
+			<Link to='/o' style={linkStyle}>
                 Favorites  
             </Link>
 
