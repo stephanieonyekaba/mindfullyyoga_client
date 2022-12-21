@@ -69,58 +69,58 @@ const App = () => {
 
 					{/* this is our YOGA INDEX page route */}
 					<Route path='/yoga_poses' element={
-					<RequireAuth user={user}>
+			
 						<IndexYogas msgAlert={msgAlert} user={user} />
-					</RequireAuth>
+					
 					}/>	
 
 					{/* this is our HOME INDEX page route */}
-					<Route path='/home' element={
-					<RequireAuth user={user}>
+					<Route path='/' element={
+					
 						<Home msgAlert={msgAlert} user={user} />
-					</RequireAuth>
+				
 					}/>	
 
 					{/* this is our YOGA SHOW page route */}
 					<Route path='/yoga_poses/:id' element={
-					<RequireAuth user={user}>
+					
 						<ShowYogas msgAlert={msgAlert } user={user} />
-					</RequireAuth>
+					
 					}/>	
 
 
 					{/* this is our JOURNAL INDEX page route */}
 					<Route path='/my_journal' element={
-					<RequireAuth user={user}>
+				
 						<IndexJournals msgAlert={msgAlert} user={user} />
-					</RequireAuth>
+				
 					}/>	
 
 					{/* this is our JOURNAL SHOW page route */}
 					<Route path='/my_journal/:id' element={
-					<RequireAuth user={user}>
+					
 						<ShowJournals msgAlert={msgAlert} user={user} />
-					</RequireAuth>
+				
 					}/>	
 
 					{/* this is our JOURNAL CREATE page route */}
 					<Route path='/add_journal' element={
-					<RequireAuth user={user}>
+					
 						<CreateJournal msgAlert={msgAlert} user={user} />
-					</RequireAuth>
+				
 					}/>	
 
 					{/* this is our FAVORITES INDEX page route */}
 					<Route path='/my_favorites' element={
-					<RequireAuth user={user}>
+				
 						<IndexFavorites msgAlert={msgAlert} user={user} />
-					</RequireAuth>
+			
 					}/>	
 
 
-					<Route path='/' element={
+					{/* <Route path='/' element={
 					<SignIn msgAlert={msgAlert} setUser={setUser} />
-					}/>
+					}/> */}
 					{/* <Route path='/' element={<Home msgAlert={msgAlert} user={user} />} />  */}
 				
 

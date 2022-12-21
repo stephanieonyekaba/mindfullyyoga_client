@@ -20,7 +20,7 @@ const brandStyle = {
 const authenticatedOptions = (
 	<>
 		<Nav.Item>
-			<Link to='/home' style={linkStyle}>
+			{/* <Link to='/home' style={linkStyle}>
 		
                 Home  
 
@@ -37,16 +37,16 @@ const authenticatedOptions = (
 
 			<Link to='/my_favorites' style={linkStyle}>
                 Favorites  
-            </Link>
+            </Link> */}
 
-			<Link to='sign-out' style={linkStyle}>
+			{/* <Link to='sign-out' style={linkStyle}>
 				Sign Out
 			</Link>
 		</Nav.Item>
 		<Nav.Item>
 			<Link to='change-password' style={linkStyle}>
 				Change password
-			</Link>
+			</Link> */}
 		</Nav.Item>
 
 	</>
@@ -54,12 +54,41 @@ const authenticatedOptions = (
 
 const unauthenticatedOptions = (
 	<>
-        <Nav.Item>
+
+
+<Link to='/' style={linkStyle}>
+		
+                Home  
+
+            </Link>
+			<Link to='/my_journal' style={linkStyle}>
+                Journal  
+            </Link>
+
+
+			<Link to='/yoga_poses' style={linkStyle}>
+                Yoga  
+            </Link>
+
+
+			<Link to='/favorites' style={linkStyle}>
+                Favorites  
+            </Link>
+
+
+
+
+
+
+
+
+
+        {/* <Nav.Item>
 		    <Link to='sign-up' style={linkStyle}>Sign Up</Link>
-        </Nav.Item>
-        <Nav.Item>
+        </Nav.Item> */}
+        {/* <Nav.Item>
 		    <Link to='/' style={linkStyle}>Sign In</Link>
-        </Nav.Item>
+        </Nav.Item> */}
 	</>
 )
 
