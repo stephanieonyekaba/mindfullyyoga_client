@@ -1,9 +1,6 @@
 {
   "name": "Mindful-Client",
   "version": "0.1.0",
-  "engines": {
-    "node": "6.11.1"
-  },
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
@@ -20,14 +17,14 @@
     "react-icons": "^4.4.0",
     "react-moment": "^1.1.2",
     "react-router-dom": "^6.0.2",
-    "react-scripts": "^5.0.1",
+    "react-scripts": "4.0.3",
     "sass": "^1.44.0",
     "styled-components": "^5.3.5",
     "uuid": "^8.3.2",
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "start": "react-scripts --openssl-legacy-provider start",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
